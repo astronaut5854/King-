@@ -832,7 +832,7 @@ async def txt_handler(bot: Client, m: Message):
 
             elif 'appx-pdf-keyset' in url:
                 clean_url = url.split("*")[0]  # remove any key part if exists
-                url = f"https://lalitproxy.onrender.com/pdf-viewer?url={clean_url}"
+                url = f"https://lalitproxy.onrender.com/pdf-viewer?url={url}"
             if ".pdf*" in url:
                 url = f"https://dragoapi.vercel.app/pdf/{url}"
             
