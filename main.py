@@ -859,7 +859,7 @@ async def txt_handler(bot: Client, m: Message):
             try:
                 cc = (
     f"<b>Index<i>: </i>: {str(count).zfill(3)} </b>\n\n"
-      Lecture </b> : {name1}\n\n"
+    f"<b>Lecture </b> : {name1}\n\n"
     f"<blockquote>"
     f"<b>📚 Batch :</b> {b_name}\n"
     f"</blockquote>\n"
