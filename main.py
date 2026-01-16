@@ -683,7 +683,7 @@ async def txt_handler(bot: Client, m: Message):
                         url = re.search(r"(https://.*?playlist.m3u8.*?)\"", text).group(1)
 
             elif 'edge-cache-token' in url:
-                url = f"https://api.brucewayne0280.workers.dev/?url={url}"
+                url = f"https://api.officiallalit028.workers.dev/?url={url}"
             
             if "acecwply" in url:
                 cmd = f'yt-dlp -o "{name}.%(ext)s" -f "bestvideo[height<={raw_text2}]+bestaudio" --hls-prefer-ffmpeg --no-keep-video --remux-video mkv --no-warning "{url}"'
@@ -832,7 +832,7 @@ async def txt_handler(bot: Client, m: Message):
 
             elif 'appx-pdf-keyset' in url:
                 clean_url = url.split("*")[0]  # remove any key part if exists
-                url = f"https://lalitproxy.onrender.com/pdf-viewer?url={url}"
+                url = f"https://www.mystudyhub.shop/api/pdf?url=ht{url}"
             if ".pdf*" in url:
                 url = f"https://dragoapi.vercel.app/pdf/{url}"
             
@@ -858,8 +858,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:
                 cc = (
-    f"<b>✵─────  <i>VID ID </i>: {str(count).zfill(3)}  ─────✵</b>\n\n"
-    f"<b>📼Lecture </b> : {name1}\n\n"
+    f"<b>Index<i>: </i>: {str(count).zfill(3)} </b>\n\n"
+      Lecture </b> : {name1}\n\n"
     f"<blockquote>"
     f"<b>📚 Batch :</b> {b_name}\n"
     f"</blockquote>\n"
