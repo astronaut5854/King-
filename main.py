@@ -858,18 +858,18 @@ async def txt_handler(bot: Client, m: Message):
 
             try:
                 cc = (
-    f"<b>Index<i>: </i>: {str(count).zfill(3)} </b>\n\n"
+    f"<b>Index<i>: </i> {str(count).zfill(3)} </b>\n\n"
     f"<b>Lecture </b> : {name1}\n\n"
     f"<blockquote>"
-    f"<b>📚 Batch :</b> {b_name}\n"
+    f"<b> Batch :</b> {b_name}\n"
     f"</blockquote>\n"
     f"<b> 📥 Downloaded By :</b> {CR}"
 )
                 cc1 = (
-    f"<b>──────  <i>PDF ID </i>: {str(count).zfill(3)}  ──────</b>\n\n"
-    f"<b>📑 Pdf Title: </b> : {name1}\n\n"
+    f"<b>Index <i>: </i> {str(count).zfill(3)}  ──────</b>\n\n"
+    f"<b>Pdf Title: </b> : {name1}\n\n"
     f"<blockquote>"
-    f"<b>📚 ʙᴀᴛᴄʜ :</b> {b_name}\n"
+    f"<b>Batch:</b> {b_name}\n"
     f"</blockquote>\n"
     f"<b> 📥 Downloaded By :</b> {CR}"
 )
