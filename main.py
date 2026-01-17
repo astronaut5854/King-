@@ -861,17 +861,17 @@ async def txt_handler(bot: Client, m: Message):
     f"<b>Index<i>: </i> {str(count).zfill(3)} </b>\n\n"
     f"<b>Lecture </b> : {name1}\n\n"
     f"<blockquote>"
-    f"<b> Batch :</b> {b_name}\n"
+    f"<b>Batch :</b> {b_name}\n"
     f"</blockquote>\n"
-    f"<b> 📥 Downloaded By :</b> {CR}"
+    f"<b>Downloaded By :</b> {CR}"
 )
                 cc1 = (
-    f"<b>Index <i>: </i> {str(count).zfill(3)}  ──────</b>\n\n"
+    f"<b>Index <i>: </i> {str(count).zfill(3)}</b>\n\n"
     f"<b>Pdf Title: </b> : {name1}\n\n"
     f"<blockquote>"
     f"<b>Batch:</b> {b_name}\n"
     f"</blockquote>\n"
-    f"<b> 📥 Downloaded By :</b> {CR}"
+    f"<b>Downloaded By :</b> {CR}"
 )
                 cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**Extracted by➤**{CR}\n' 
                 ccimg = (
